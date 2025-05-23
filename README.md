@@ -2,7 +2,7 @@
 
 This repository is intended for developing a clang-tidy MISRA plugin which
 uses the implementation in [Clang-Tidy Automotive](https://github.com/PeterHallonmark/clang-tidy-automotive)
-and maps the implementation towards **MISRA C 2023** and **MISRA C 2012**
+and maps the implementation towards **MISRA C:2023** and **MISRA C:2012**
 with a compliance matrix. 
 
 **Note**: Official MISRA documents must be purchased and are protected
