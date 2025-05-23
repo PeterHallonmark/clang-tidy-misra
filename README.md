@@ -5,6 +5,10 @@ uses the implementation in [Clang-Tidy Automotive](https://github.com/PeterHallo
 It will try to cover as much as possible of MISRA C 2023** and 
 **MISRA C 2012**. 
 
+**Note**: Official MISRA documents must be purchased and are protected
+by copyright. This project is independent and is not affiliated with or
+endorsed by the MISRA Consortium.
+
 ## License
 
 The repository follows LLVM's license structure to make it easier to upstream
