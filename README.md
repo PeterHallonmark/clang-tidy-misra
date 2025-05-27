@@ -30,16 +30,3 @@ this project. Contributions are always welcome!
 an independent initiative to develop clang-tidy checks for MISRA C 2023 and
 MISRA C 2012. Any contributions or code changes are not officially endorsed
 by MISRA or LLVM.
-
-## Copyright Notice and MISRA Compliance
-
-This project uses MISRA C 2023 and MISRA C 2012 metadata such as rule
-IDs, rule categories and the programming language versions the rule applies 
-to (required for verification purpose). However, the actual MISRA headings 
-and text are not included in this repository as they are copyrighted by the 
-MISRA organization.
-
-The goal of this project is to provide MISRA-compliant checks without directly
-reproducing copyrighted headings or texts. By using only metadata this
-project aims to make it possible to contribute to the LLVM project in the 
-future.
