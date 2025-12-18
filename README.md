@@ -1,13 +1,14 @@
 # Clang-Tidy MISRA support
 
-This repository is intended for developing a Clang-Tidy MISRA plugin which
+This repository is intended for the mapping configuration which
 uses the implementation in [Clang-Tidy Automotive](https://github.com/PeterHallonmark/clang-tidy-automotive)
 and maps the implementation towards **MISRA C:2023** and **MISRA C:2012**
-with a compliance matrix. 
+with a diagnostic mapping configuration and have a compliance matrix to 
+see the implementation status.
 
-The idea is to have the major implementation in the Clang-Tidy Automotive 
-plugin and the mapping against the correct rule in the Clang-Tidy MISRA
-repo. 
+The idea is to have the implementation in the Clang-Tidy Automotive 
+plugin and the mapping configuration against the correct rule in the 
+Clang-Tidy MISRA repo. 
 
 **Note**: Official MISRA documents must be purchased and are protected
 by copyright. This project is independent and is not affiliated with or
