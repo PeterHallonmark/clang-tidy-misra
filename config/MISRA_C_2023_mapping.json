@@ -1,0 +1,32 @@
+
+{
+  "name": "MISRA C 2023",
+  "metadata": "M_C_2023_headings.json",
+  "diagnostic-mappings":
+  [
+    {
+      "name": "misra-c2023-3.2",
+      "message": "rule 3.2",
+      "flag": "-Wcomment",
+      "replace": "clang-diagnostic-comment",
+      "ref": "rule 3.2"
+    },
+    {
+      "name": "misra-c2023-3.3",
+      "flag": "-Wcomment",
+      "replace": "clang-diagnostic-comment",
+      "ref": "rule 3.3"
+    },
+    {
+      "name": "misra-c2023-5.3",
+      "flag": "-Wshadow",
+      "replace": "clang-diagnostic-shadow",
+      "ref": "rule 5.3"
+    },
+    {
+      "name": "misra-c2023-X.Y",
+      "replace": "automotive-unused-macro",
+      "ref": "rule X.Y"
+    }
+  ]
+}
