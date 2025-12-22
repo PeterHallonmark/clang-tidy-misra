@@ -1,32 +1,68 @@
 
 {
   "name": "MISRA C 2023",
-  "metadata": "M_C_2023_headings.json",
+  "metadata": "MISRA_C_2023_headings.json",
   "diagnostic-mappings":
   [
     {
-      "name": "misra-c2023-3.2",
-      "message": "rule 3.2",
-      "flag": "-Wcomment",
-      "replace": "clang-diagnostic-comment",
+      "name": "misra-c2023-adv-2.4",
+      "replace": "automotive-unused-type",
+      "ref": "rule 2.4"
+    },
+    {
+      "name": "misra-c2023-req-3.2",
+      "replace": "automotive-avoid-line-splicing-within-comment",
       "ref": "rule 3.2"
     },
     {
-      "name": "misra-c2023-3.3",
-      "flag": "-Wcomment",
-      "replace": "clang-diagnostic-comment",
+      "name": "misra-c2023-req-3.3",
+      "replace": "automotive-avoid-comment-within-comment",
       "ref": "rule 3.3"
     },
     {
-      "name": "misra-c2023-5.3",
-      "flag": "-Wshadow",
-      "replace": "clang-diagnostic-shadow",
-      "ref": "rule 5.3"
+      "name": "misra-c2023-req-4.1",
+      "replace": "automotive-unterminated-escape-sequence",
+      "ref": "rule 4.1"
+    },
+    {    
+      "name": "misra-c2023-req-6.1",
+      "replace": "automotive-wrong-bitfield-type",
+      "ref": "rule 6.1"
+    },
+    {    
+      "name": "misra-c2023-req-6.2",
+      "replace": "automotive-avoid-signed-single-bitfield",
+      "ref": "rule X.Y"
+    },
+    {    
+      "name": "misra-c2023-???-6.3",
+      "replace": "automotive-avoid-bitfield-in-union",
+      "ref": "rule 6.3"
+    },
+    {    
+      "name": "misra-c2023-req-7.1",
+      "replace": "automotive-avoid-octal-number",
+      "ref": "rule 7.1"
+    },
+    {    
+      "name": "misra-c2023-req-7.3",
+      "replace": "automotive-avoid-lowercase-literal-suffix",
+      "ref": "rule 7.3"
+    },
+    {    
+      "name": "misra-c2023-req-8.1",
+      "replace": "automotive-implicit-int",
+      "ref": "rule 7.3"
+    },  
+    {
+      "name": "misra-c2023-req-15.6",
+      "replace": "automotive-missing-compound",
+      "ref": "rule 15.6"
     },
     {
-      "name": "misra-c2023-X.Y",
-      "replace": "automotive-unused-macro",
-      "ref": "rule X.Y"
+      "name": "misra-c2023-req-16.3",
+      "replace": "automotive-missing-break-in-case",
+      "ref": "rule 16.3"
     }
   ]
 }
